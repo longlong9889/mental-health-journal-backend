@@ -7,7 +7,10 @@ const app = express();
 
 // Enable CORS for your frontend
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://mental-health-journal-vercel.vercel.app/']
+    origin: ['http://localhost:3000',
+        'https://mental-health-journal-vercel.vercel.app/',
+        'https://mental-health-journal-vercel-l7amcyu57-longs-projects-7bd12887.vercel.app'
+    ]
 }));
 
 app.use(express.json());
