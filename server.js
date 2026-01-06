@@ -7,7 +7,7 @@ const app = express();
 
 // Enable CORS for your frontend
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://*.vercel.app']
+    origin: ['http://localhost:3000', 'https://mental-health-journal-vercel.vercel.app/']
 }));
 
 app.use(express.json());
